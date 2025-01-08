@@ -1,0 +1,2 @@
+https://docs.edu.cospaces.io/typescript/api/public/
+https://www.cospaces.io/getting-started
