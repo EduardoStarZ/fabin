@@ -26,10 +26,6 @@ function grabItem() {
         items[i].opacity = 0;
         itemStatus[i] = 1;
 
-        if(1 == i) {
-            unlocked = true ;    
-        }
-
         }
     }
 }
@@ -60,7 +56,6 @@ function placeItem() {
 Input.onKeyDown(() => {
     grabItem();
     placeItem();
-    unlock_final_door();
 }, "f");
 
 
